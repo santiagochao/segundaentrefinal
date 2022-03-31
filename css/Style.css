@@ -1,7 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,300&display=swap');
-
 *{
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
@@ -16,13 +13,8 @@ h3{
 	color: black;font-size: 50px;
 	font-family: 'Montserrat', sans-serif;
 }
-
-
-
 .bg-green{ background-color: rgba(77, 194, 123, 1) ;
 }
-
-
 footer{
 	grid-area: footer;
 	display: flex;
@@ -30,7 +22,6 @@ footer{
 	text-align: center;
 
 }
-
 header nav{
 	display: flex;
 	flex-direction: column;
@@ -39,12 +30,10 @@ header nav{
 	margin-bottom: -5px;
 
 }
-header nav ul {#4DC27B
+header nav ul { #4DC27B
   display: flex;
 }
 header nav ul li{
-
-
 }
 header nav ul li a{
 	color:#000 ;
@@ -52,7 +41,6 @@ header nav ul li a{
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
-
 footer{
 	background-color:#ffffff ;
 }
@@ -70,8 +58,6 @@ footer h3{
 .instagram__icon--sm{
 	width: 150px;
 }
-
-
 }
 .linear-gradient{
 	background: linear-gradient(to top, whitesmoke, rgba(77, 194, 123, 1.0));
@@ -82,14 +68,12 @@ footer h3{
 	transition: 2s;
 }
 @media (min-width: 768px){
-
 header nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
-
 header nav ul{
 	display: flex;
 	flex-direction: row;
@@ -101,12 +85,8 @@ header nav ul{
 header nav ul li a{
 		font-size: 14px;
 	}
-
-
-
 @media (min-width: 900px){
 	header nav ul li a{
 		font-size: 16px;
 	}
-	
 	}
