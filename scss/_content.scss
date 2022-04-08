@@ -1,0 +1,36 @@
+#dashboard {
+	 background-color:$mainColor;
+	 img{
+	 	width:$w-100;
+	 }
+	  h1{ @include texto($fontSecondary, $textLg, center, $primaryColor, 0 20px);
+	 }
+
+	  h2{  @include texto($fontSecondary, $textMd, center, $primaryColor, 0 20px);
+				 }
+	  h4{
+	  	 @include texto($fontSecondary, $textMd, center, $primaryColor, 0 20px);
+	  }
+	 	section{ @include section($w-100,flex,row, space-around);
+	 }
+     }
+     
+	 p{
+	 	color: black;
+	 	font-size: $textSm;
+	 	line-height: 1.4 em;
+	 	padding:20px;
+	 	a{
+	 		color: grey;
+	 		font-size: 1.1em;
+	 		
+	 	}
+	 }
+	.linear-gradient{
+	background: linear-gradient(to top, whitesmoke, rgba(77, 194, 123, 1.0));
+}
+    .scale:hover{
+	transform:scaley(0.9);
+	cursor: pointer;
+	transition: 2s;
+}

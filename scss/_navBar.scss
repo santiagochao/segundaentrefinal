@@ -1,0 +1,16 @@
+
+.botonera { @include botonera($mainColor,5px 30px, sticky, 0, flex, space-between);
+	li{
+		list-style: none;
+		margin-right: 30px;
+		a{
+			text-decoration:none;
+			font-size: $textSm;
+			font-family: fontSecondary;
+			&:hover{
+				color: $keyColor;
+			}
+		}
+	}
+}
+
